@@ -1,0 +1,106 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: black;
+    color: white;
+    display: grid;
+    margin: 0;
+}
+
+nav.nav-head{
+    display: flex;
+    width: 100%;
+    background: #23252B;
+}
+
+nav.nav-head .ul-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+    padding: 0;
+    margin-left: 10em;
+    height: 30px;
+}
+
+nav.nav-head .ul-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 30%;
+    padding: 0;
+    margin-left: 15em;
+    margin-right: 10em;
+    height: 30px;
+}
+
+nav.nav-head .ul-left li a{
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav.nav-head .ul-right li a{
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#profile-logo{
+    border-radius: 100%;
+    width: 1.7em;
+}
+
+#li-right{
+    display: flex;
+}
+
+#head-start div{
+    background-image: url(/img/Hero\ background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#head-start div{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.additional-info{
+    display: flex;
+    justify-content: center;
+    height: 4.5em;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#selected-button{
+    background: #213944;
+}
+
+.additional-info button{
+    flex-wrap: wrap;
+    border: 0;
+    margin-top: 1.2em;
+    margin: 0.3em;
+    margin-bottom: 1.2em;
+    background: #23252B;
+    color: #FFFFFF;
+    width: 15em;
+}
+
+#main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.recomandation h1{
+    font-size: 32px;
+    margin-bottom: 0;
+}
