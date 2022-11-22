@@ -14,25 +14,33 @@ nav.nav-head{
 
 nav.nav-head .ul-left{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     list-style: none;
     width: 50%;
-    padding: 0;
     margin-left: 10em;
     height: 30px;
 }
 
+nav.nav-head .ul-left li{
+    padding: 1em;
+}
+
+.ul-left li:hover{
+    background-color: #0F1013;
+}    
+
 nav.nav-head .ul-right{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     list-style: none;
     width: 30%;
-    padding: 0;
     margin-left: 15em;
-    margin-right: 10em;
+    margin-right: 5em;
     height: 30px;
+}
+
+nav.nav-head .ul-right li{
+    padding: 1em;
 }
 
 nav.nav-head .ul-left li a{
@@ -41,6 +49,10 @@ nav.nav-head .ul-left li a{
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.ul-right li:hover{
+    background-color: #0F1013;
+}    
 
 nav.nav-head .ul-right li a{
     font-size: 20px;
@@ -77,10 +89,10 @@ nav.nav-head .ul-right li a{
     justify-content: center;
     height: 4.5em;
     width: 1000px;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
-#selected-button{
+.additional-info button:hover{
     background: #213944;
 }
 
@@ -100,7 +112,27 @@ nav.nav-head .ul-right li a{
     margin: 0 auto;
 }
 
+.recomandation{
+    width: 1000px;
+    margin: 1em auto;    
+}
+
 .recomandation h1{
     font-size: 32px;
     margin-bottom: 0;
+}
+
+.recomandation #blue-line{
+    width: 1000px;
+    margin: 1em auto;
+}
+
+#recc{
+    display: flex;
+    width: 150px;
+    padding-top: 1.2em;
+}
+
+#recc div{
+    padding-right: 1.25em;
 }
