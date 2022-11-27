@@ -70,11 +70,27 @@ nav.nav-head .ul-right li a{
     display: flex;
 }
 
-#head-start div{
+#head-start div button{
+    position: absolute;
+    background: blue;
+    color: #FFFFFF;
+    border: 0;
+    right: 170px;
+    bottom: 235px;
+    padding: 1em 1.5em 1em 1.5em;
+    font-size: 1.2em;
+}
+
+#head-start{
     background-image: url(/img/Hero\ background.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    z-index: -1;
+}
+
+#head-start div{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
 }
 
 #head-start div{
@@ -117,12 +133,12 @@ nav.nav-head .ul-right li a{
     margin: 1em auto;    
 }
 
-.recomandation h1{
+h1{
     font-size: 32px;
     margin-bottom: 0;
 }
 
-.recomandation #blue-line{
+#blue-line{
     width: 1000px;
     margin: 1em auto;
 }
@@ -135,4 +151,22 @@ nav.nav-head .ul-right li a{
 
 #recc div{
     padding-right: 1.25em;
+}
+
+.watch-again #wa{
+    display: flex;
+    width: 251px;
+}
+
+.watch-again #wa div{
+    padding-right: 0.4em;
+}
+
+span{
+    font-size: 14px;
+    color: #909CA2;
+}
+
+h2{
+    font-size: 16px;
 }
