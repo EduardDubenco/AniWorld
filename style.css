@@ -223,3 +223,7 @@ p{
     margin: 1em auto;
 }
 
+footer img{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
