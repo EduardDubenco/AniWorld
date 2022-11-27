@@ -113,13 +113,13 @@ h1{
     margin-bottom: 0.3em;
 }
 
-#main .section-title{
-    margin-bottom: 1em;
-}
-
-#recomandation{
+#main{
     width: 1050px;
     margin: 1em auto;
+}
+
+#main .section-title{
+    margin-bottom: 1em;
 }
 
 #recc{
@@ -144,11 +144,6 @@ h1{
     color: #2ABDBB;
 }
 
-#watch-again{
-    width: 1050px;
-    margin: 1em auto;
-}
-
 #w-a{
     display: flex;
     justify-content: space-between;
@@ -168,7 +163,7 @@ h4{
     color: #909CA2;
 }
 
-p{
+#w-a p{
     margin: 0;
 }
 
@@ -176,54 +171,42 @@ p{
     margin-top: 3em;
 }
 
-#your-favorites{
+#adds{
     width: 1050px;
     margin: 1em auto;
-}
-
-#gool{
-    width: 1050px;
-    margin: 1em auto;
-}
-
-#news #bg-news{
-    background-image: url(/img/News\ Banner\ background.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#news #bg-news .section-title{
-    width: 1050px;
-    height: 52em;
-    padding-top: 2em;
-    margin: 1em auto;
-}
-
-#news #bg-news .section-title h1{
     display: flex;
+    flex-direction: column;
+    margin-top: 3em;
 }
 
-
-
-
-
-
-#popular{
-    width: 1050px;
-    margin: 1em auto;
-}
-
-#updates{
-    width: 1050px;
-    margin: 1em auto;
-}
-
-#similar{
-    width: 1050px;
-    margin: 1em auto;
-}
-
-footer img{
+footer #footer{
+    background-image: url(/img/Footer.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 20em;
+    z-index: -1;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 27em 35em;
+    gap: 2em;
+}
+
+.grid-container .text button{
+    margin-top: 2em;
+    padding: 1em 2em 1em 2em;
+    border: 2px solid #F47521;
+    background-color: #0F1013;
+    color: #F47521;
+    margin-left: 1em;
+    align-items: center;
+    display: inline-flex;
+}
+
+.grid-container .text .first{
+    background-color: #F47521;;
+    color: #0F1013;
 }
