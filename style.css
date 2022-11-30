@@ -112,10 +112,6 @@ h1{
     margin-bottom: 0.3em;
 }
 
-#main{
-
-}
-
 #recomandation{
     width: 1050px;
     margin: 1em auto;
@@ -156,9 +152,23 @@ h1{
     margin: 1em auto;
 }
 
+#help h3{
+    margin: 0;
+    margin-top: 0.5em;
+    color: white;
+}
+
+#help div strong{
+    color: white;
+}
+
+#help div{
+    gap: 1em;
+}
+
 #news1{
-padding-top: 1em;
-padding-bottom: 3em;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
 #bg-news{
@@ -268,7 +278,7 @@ footer #footer{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    height: 20em;
+    height: auto;
     z-index: -1;
 }
 
