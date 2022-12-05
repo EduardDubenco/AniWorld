@@ -273,13 +273,8 @@ h4{
 }
 
 footer #footer{
-    background-image: url(/img/Footer.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    height: auto;
-    z-index: -1;
 }
 
 .grid-container{
@@ -303,3 +298,5 @@ footer #footer{
     background-color: #F47521;;
     color: #0F1013;
 }
+
+
